@@ -15,7 +15,7 @@ A simple Python-based math game using Tkinter for children aged 5-8 years old. T
 ## Running the Game
 
 1. Open a terminal (Command Prompt on Windows or Terminal on macOS/Linux).
-2. Navigate to the folder where you saved the `math_game_tkinter.py` file.
+2. Navigate to the folder where you saved the `maths_game_tkinter.py` file.
 3. Run the following command to start the game:
 
 python3 maths_game_tkinter.py
