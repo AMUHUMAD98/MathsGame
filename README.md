@@ -9,7 +9,7 @@ A simple Python-based math game using Tkinter for children aged 5-8 years old. T
 
 ## Installation
 
-1. Clone this repository or download the `math_game_tkinter.py` file.
+1. Clone this repository or download the `maths_game_tkinter.py` file.
 2. Make sure Python is installed on your computer. You can download Python from [the official website](https://www.python.org/downloads/).
 
 ## Running the Game
