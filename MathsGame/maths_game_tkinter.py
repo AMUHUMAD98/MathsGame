@@ -1,81 +1,89 @@
-import random
 import tkinter as tk
-from tkinter import messagebox
+import random
+import time
 
-def generate_question():
-    operators = ['+', '-', '*', '/']
-    num1 = random.randint(1, 10)
-    num2 = random.randint(1, 10)
-    operation = random.choice(operators)
+class MathsGame:
+    def __init__(self, master):
+        self.master = master
+        self.master.title("Maths Game")
 
-    if operation == '/':
-        num1 *= num2
+        self.question_count = 0
+        self.start_time = time.time()
+        self.score = 0
+        self.level = "Easy"
+        self.create_widgets()
 
-    question_text.set(f"{num1} {operation} {num2} = ")
-    return eval(f"{num1} {operation} {num2}")
+    def create_widgets(self):
+        self.level_label = tk.Label(self.master, text="Select Level:")
+        self.level_label.grid(row=0, column=0, padx=10, pady=10)
 
-def check_answer():
-    try:
-        answer = float(entry_answer.get())
-    except ValueError:
-        result_text.set("Invalid input. Please enter a number.")
-        return
+        self.level_var = tk.StringVar(self.master)
+        self.level_var.set("Easy")
 
-    if round(answer, 2) == round(correct_answer.get(), 2):
-        result_text.set("Correct!")
-        score.set(score.get() + 1)
-    else:
-        result_text.set(f"Sorry, the correct answer is {correct_answer.get()}.")
+        self.level_option = tk.OptionMenu(self.master, self.level_var, "Easy", "Medium", "Hard")
+        self.level_option.grid(row=0, column=1, padx=10, pady=10)
 
-    if questions.get() < 10:
-        questions.set(questions.get() + 1)
-        correct_answer.set(generate_question())
-    else:
-        result_text.set(f"Game over! Your final score is {score.get()} out of 10!")
-        root.after_cancel(timer)
-        messagebox.showinfo("Game Over", f"Your final score is {score.get()} out of 10!")
+        self.problem_label = tk.Label(self.master, text="Problem: ")
+        self.problem_label.grid(row=1, column=0, padx=10, pady=10)
 
-def start_game():
-    questions.set(1)
-    score.set(0)
-    correct_answer.set(generate_question())
-    countdown(600)  # 600 seconds = 10 minutes
+        self.entry = tk.Entry(self.master)
+        self.entry.grid(row=1, column=1, padx=10, pady=10)
 
-def countdown(time_left):
-    if time_left > 0:
-        time_text.set(f"Time remaining: {time_left} seconds")
-        global timer
-        timer = root.after(1000, countdown, time_left - 1)
-    else:
-        result_text.set("Time's up!")
-        messagebox.showinfo("Time's Up", "10 minutes have passed. The game is over!")
+        self.submit_button = tk.Button(self.master, text="Submit", command=self.check_answer)
+        self.submit_button.grid(row=1, column=2, padx=10, pady=10)
 
-root = tk.Tk()
-root.title("Math Game")
+        self.status_label = tk.Label(self.master, text="")
+        self.status_label.grid(row=2, columnspan=3, padx=10, pady=10)
 
-questions = tk.IntVar()
-score = tk.IntVar()
-question_text = tk.StringVar()
-result_text = tk.StringVar()
-time_text = tk.StringVar()
-correct_answer = tk.DoubleVar()
+        self.update_problem()
 
-label_time = tk.Label(root, textvariable=time_text)
-label_time.pack()
+    def generate_problem(self):
+        num_range = {"Easy": (1, 10), "Medium": (10, 100), "Hard": (100, 1000)}
+        self.level = self.level_var.get()
+        a, b = random.randint(*num_range[self.level]), random.randint(*num_range[self.level])
+        operation = random.choice(["+", "-", "*", "/"])
 
-label_question = tk.Label(root, textvariable=question_text)
-label_question.pack()
+        if operation == "+":
+            result = a + b
+        elif operation == "-":
+            result = a - b
+        elif operation == "*":
+            result = a * b
+        elif operation == "/":
+            b = random.choice([i for i in range(1, a+1) if a % i == 0])
+            result = a // b
+        return f"{a} {operation} {b}", result
 
-entry_answer = tk.Entry(root)
-entry_answer.pack()
+    def update_problem(self):
+        if self.question_count < 10 and time.time() - self.start_time < 600:
+            problem, self.correct_answer = self.generate_problem()
+            self.problem_label["text"] = f"Problem: {problem}"
+            self.entry.delete(0, tk.END)
+        else:
+            self.end_game()
 
-button_submit = tk.Button(root, text="Submit", command=check_answer)
-button_submit.pack()
+    def check_answer(self):
+        try:
+            answer = int(self.entry.get())
+        except ValueError:
+            self.status_label["text"] = "Invalid input. Please enter a number."
+            return
 
-label_result = tk.Label(root, textvariable=result_text)
-label_result.pack()
+        if answer == self.correct_answer:
+            self.score += 1
+            self.status_label["text"] = "Correct!"
+        else:
+            self.status_label["text"] = f"Incorrect. The correct answer was {self.correct_answer}."
 
-button_start = tk.Button(root, text="Start Game", command=start_game)
-button_start.pack()
+        self.question_count += 1
+        self.update_problem()
 
-root.mainloop()
+    def end_game(self):
+        self.problem_label["text"] = f"Game Over! Your score: {self.score}"
+        self.entry.grid_forget()
+        self.submit_button.grid_forget()
+
+if __name__ == "__main__":
+    root = tk.Tk()
+    app = MathsGame(root)
+    root.mainloop()
