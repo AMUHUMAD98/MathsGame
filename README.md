@@ -1,29 +1,37 @@
-# MathsGame
+Title: Children's Math Game using Tkinter
 
-A simple Python-based math game using Tkinter for children aged 5-8 years old. The game includes addition, subtraction, multiplication, and division. The game has a 10-minute time limit and consists of 10 questions.
+Description:
+A fun and intuitive math game designed for kids aged 5-8, created with Python's Tkinter library. This game allows children to practice their math skills at different levels of difficulty - Easy, Medium, and Hard.
 
-## Requirements
+How to Play the Maths Game:
 
-- Python 3.6 or higher
-- Tkinter (usually comes pre-installed with Python)
+Clone the repository or copy the code provided above into a new Python file (e.g., maths_game_tkinter.py).
 
-## Installation
+Install the required dependencies:
 
-1. Clone this repository or download the `maths_game_tkinter.py` file.
-2. Make sure Python is installed on your computer. You can download Python from [the official website](https://www.python.org/downloads/).
+Make sure Python is installed on your computer. If not, download it from the official website: https://www.python.org/downloads/
+Verify if you have the Tkinter library installed. It typically comes pre-installed with Python installations. If not, install it using the following command:
+For Python 3.x:
 
-## Running the Game
+arduino
+Copy code
+sudo apt-get install python3-tk
+Launch the game by executing the Python file:
 
-1. Open a terminal (Command Prompt on Windows or Terminal on macOS/Linux).
-2. Navigate to the folder where you saved the `maths_game_tkinter.py` file.
-3. Run the following command to start the game:
-
+Copy code
 python3 maths_game_tkinter.py
+The game window will appear, displaying the level selection and the initial math problem.
 
-How to Play
-Click the "Start Game" button to begin the game.
-A math question will appear, and a 10-minute timer will start counting down.
-Input your answer in the entry field and click "Submit."
-The game will provide feedback on whether your answer was correct or incorrect.
-The game will end after 10 questions or when the timer runs out, whichever comes first.
-A final score out of 10 will be displayed.
+Choose a difficulty level (Easy, Medium, or Hard) from the drop-down menu.
+
+Solve the math problem presented in the "Problem" label and input your answer in the text field.
+
+Click the "Submit" button to determine if your answer is correct or incorrect.
+
+The game will offer feedback on the accuracy of your answer. If your answer was incorrect, the correct answer will be shown.
+
+Continue answering problems until the game finishes. The game will conclude after you've attempted 10 questions or 10 minutes have passed, whichever comes first.
+
+Your final score will be displayed, and the game will end. To play again, close the window and relaunch the game.
+
+Enjoy honing your math skills while playing this interactive and educational game!
