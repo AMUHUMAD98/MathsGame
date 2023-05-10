@@ -3,12 +3,11 @@ Title: Children's Math Game using python
 Description:
 A fun and intuitive math game designed for kids aged 5-8, created with Python's Tkinter library. This game allows children to practice their math skills at different levels of difficulty - Easy, Medium, and Hard.
 
-How to Play the Maths Game:
-1.	Clone the repository or copy the code provided above into a new Python file (e.g., maths_game_tkinter.py).
+1. How to Play the Maths Game:
+Clone the repository or copy the code provided above into a new Python file (e.g., maths_game_tkinter.py).
 
 
-2.	Install the required dependencies:
-
+2. Install the required dependencies:
 -	Make sure Python is installed on your computer. If not, download it from the official website: https://www.python.org/downloads/
 -	Verify if you have the Tkinter library installed. It typically comes pre-installed with Python installations. If not, install it using the following command:
 
