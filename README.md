@@ -11,8 +11,7 @@ Clone the repository or copy the code provided above into a new Python file (e.g
 2. Install the required dependencies:
 -	Make sure Python is installed on your computer. If not, download it from the official website: https://www.python.org/downloads/
 -	Verify if you have the Tkinter library installed. It typically comes pre-installed with Python installations. If not, install it using the following command:
-
-For Python 3.x:
+- For Python 3.x:
 sudo apt-get install python3-tk
 
 
