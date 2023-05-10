@@ -6,6 +6,7 @@ A fun and intuitive math game designed for kids aged 5-8, created with Python's 
 How to Play the Maths Game:
 1.	Clone the repository or copy the code provided above into a new Python file (e.g., maths_game_tkinter.py).
 
+
 2.	Install the required dependencies:
 
 -	Make sure Python is installed on your computer. If not, download it from the official website: https://www.python.org/downloads/
@@ -14,8 +15,10 @@ How to Play the Maths Game:
 For Python 3.x:
 sudo apt-get install python3-tk
 
+
 3.	Launch the game by executing the Python file:
 python3 maths_game_tkinter.py
+
 
 4.	The game window will appear, displaying the level selection and the initial math problem.
 
