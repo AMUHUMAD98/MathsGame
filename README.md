@@ -4,6 +4,7 @@ Description:
 A fun and intuitive math game designed for kids aged 5-8, created with Python's Tkinter library. This game allows children to practice their math skills at different levels of difficulty - Easy, Medium, and Hard.
 
 1. How to Play the Maths Game:
+
 Clone the repository or copy the code provided above into a new Python file (e.g., maths_game_tkinter.py).
 
 
