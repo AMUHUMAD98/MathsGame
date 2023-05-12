@@ -48,7 +48,7 @@ Launch Visual Studio Code. Once installation is complete, you can launch Visual 
 
 
 # Setting up Visual Studio Code for Python
-#Install the Python extension. Open Visual Studio Code. Click on the Extensions view icon on the Sidebar (it looks like a square on its side). In the Extensions view, type "python" into the search box and install the extension by Microsoft called simply "Python".
+Install the Python extension. Open Visual Studio Code. Click on the Extensions view icon on the Sidebar (it looks like a square on its side). In the Extensions view, type "python" into the search box and install the extension by Microsoft called simply "Python".
 
 Open a Python file. To start working with Python in Visual Studio Code, you can create a new file with the .py extension or open an existing Python file. To create a new file, click on File > New File and then save it with the .py extension.
 
