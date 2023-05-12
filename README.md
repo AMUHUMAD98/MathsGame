@@ -3,7 +3,7 @@
 # Description:
 A fun and intuitive math game designed for kids aged 5-8, created with Python's Tkinter library. This game allows children to practice their math skills at different levels of difficulty - Easy, Medium, and Hard.
 
-Installing Python
+# Installing Python
 
 If you don't have Python installed on your machine, you can follow the instructions below:
 
