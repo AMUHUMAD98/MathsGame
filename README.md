@@ -4,6 +4,7 @@ Description:
 A fun and intuitive math game designed for kids aged 5-8, created with Python's Tkinter library. This game allows children to practice their math skills at different levels of difficulty - Easy, Medium, and Hard.
 
 Installing Python
+
 If you don't have Python installed on your machine, you can follow the instructions below:
  
 Visit the Python official website. Go to https://www.python.org.
@@ -14,6 +15,7 @@ Run the installer. After the installer is downloaded, run it. During the install
  
  
 Installing the Maths Game
+
 1. Clone the repository from Github or Download the Blue MathsGame folder by clicking the green CODE button and press Download Zip. 
 2. Verify your Python installation. You need Python installed on your computer to run this game. If you don't have Python, download it from the official website at https://www.python.org/downloads/.
 3. Check your Tkinter installation. The game uses the Tkinter library for its graphical interface. Tkinter comes pre-installed with standard Python installations. If you don't have it, you can install it using the following command:
