@@ -62,10 +62,14 @@ Open a Python file. To start working with Python in Visual Studio Code, you can 
 
 
 •	Choose a difficulty level. When the game window appears, it will show a level selection drop-down menu and an initial math problem. You can choose from Easy, Medium, or Hard levels.
+
 •	Solve the math problem. Try to solve the problem displayed in the "Problem" label. Enter your answer in the text field.
+
 •	Submit your answer. Click the "Submit" button to check if your answer is correct or incorrect.
+
 •	Get feedback. The game will tell you whether your answer was correct. If it was incorrect, the game will show the correct answer.
+
 •	Keep playing. Continue to answer problems. The game will end after you've attempted 10 questions, or 10 minutes have passed, whichever comes first.
+
 •	View your score. At the end of the game, your final score will be displayed. To play again, close the window and relaunch the game.
 
-![image](https://github.com/AMUHUMAD98/MathsGame/assets/129621102/14bef45c-8d10-4610-b0e5-868719e61528)
