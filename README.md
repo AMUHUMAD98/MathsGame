@@ -15,8 +15,11 @@ Run the installer. After the installer is downloaded, run it. During the install
 # Install following commands:
 
 pip install pillow
+
 pip install playsound
+
 pip install pygame
+
 pip install pyobjc 
 
 # Installing the Maths Game
