@@ -42,6 +42,14 @@ Enjoy this interactive and educational game while practicing your math skills!
 
 
 # IF THE ABOVE DOESN’T WORK:
+# Installing Python
+If you don't have Python installed on your machine, you can follow the instructions below:
+
+Visit the Python official website. Go to https://www.python.org.
+
+Download the Python installer. Hover over the Downloads menu and click on the version that is suitable for your operating system. As of my knowledge cutoff in September 2021, Python 3.9.7 is the latest stable version.
+
+Run the installer. After the installer is downloaded, run it. During the installation, make sure to check the box that says "Add Python to PATH" before you click "Install Now".
 
 # Installing Visual Studio Code
 Visit the Visual Studio Code website. You can download Visual Studio Code from the official website at https://code.visualstudio.com.
