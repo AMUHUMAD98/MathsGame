@@ -111,7 +111,6 @@ You can install these Python packages using pip:
 9.	View your score. At the end of the game, your final score will be displayed. To play again, close the window and relaunch the game.
 
 Enjoy this interactive and educational game while practicing your math skills!
-![image](https://github.com/AMUHUMAD98/MathsGame/assets/129621102/5bef1d32-93c4-4862-bc2d-15af50c9830a)
 
 
 
