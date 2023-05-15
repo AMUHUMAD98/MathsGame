@@ -96,19 +96,36 @@ You can install these Python packages using pip:
 
 2.	Go to Visual studio code on the Left-hand side press explorer, Open Folder, click Downloads and find the Blue MathsGame folder you Downloaded from Github. Once your find it press open.
 
-3.	Once you Open the folder launch the game. You can start the game by running the Python file within Visual studio code from terminal (Should be at the of Top Next to ‘RUN’ option and press New terminal). Type the following: python3 maths_game.py or python maths_game.py, depending on your Python installation.
+3.	Once you Open the folder launch the game. You can start the game by running the Python file within Visual studio code from terminal (Should be at the of Top Next to ‘RUN’ option and press New terminal). 
 
-4.	Choose a difficulty level. When the game window appears, it will show a level selection drop-down menu and an initial math problem. You can choose from Easy, Medium, or Hard levels.
+4.	On the left hand side Next to “MATHSGAME” Click New file icon, Name the file “main.py”. Open your Terminal by clicking new terminal at the top. Run and type the following onto terminal: python3  -m venv MathsGame. A pop up message will appear Click “Yes”. You have now created your virtual Environment.
 
-5.	Solve the math problem. Enter your answer in the text field.
 
-6.	Submit your answer. Click the "Submit" button.
 
-7.	The game will then give feedback by giving a point score for correct answer. If the answer is incorrect, you do not get a point.Your final score will be shown at the end of the game and how many answers you scored correctly.
 
-8.	Keep playing. Continue to answer problems. The game will end after you've attempted 10 questions, or 10 minutes have passed, whichever comes first.
+5.	Now click on “maths_game.py” file on your left hand side where your files are located. Open New terminal, Run and install these Python packages using pip:
 
-9.	View your score. At the end of the game, your final score will be displayed. To play again, close the window and relaunch the game.
+pip install pillow
+
+pip install playsound
+
+pip install pygame
+
+pip install pyobjc
+
+6.	Type the following: python3 maths_game.py or python maths_game.py, depending on your Python installation.
+
+7.	Choose a difficulty level. When the game window appears, it will show a level selection drop-down menu and an initial math problem. You can choose from Easy, Medium, or Hard levels.
+
+8.	Solve the math problem. Enter your answer in the text field.
+
+9.	Submit your answer. Click the "Submit" button.
+
+10.	The game will then give feedback by giving a point score for correct answer. If the answer is incorrect, you do not get a point.Your final score will be shown at the end of the game and how many answers you scored correctly.
+
+11.	Keep playing. Continue to answer problems. The game will end after you've attempted 10 questions, or 10 minutes have passed, whichever comes first.
+
+12.	View your score. At the end of the game, your final score will be displayed. To play again, close the window and relaunch the game.
 
 Enjoy this interactive and educational game while practicing your math skills!
 
