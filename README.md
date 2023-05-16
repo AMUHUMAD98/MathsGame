@@ -30,7 +30,7 @@ pip install pyobjc
 •	For Python on Windows and MacOS, Tkinter comes pre-installed with the standard Python distribution.
 
 # Playing the Maths Game
-1.	Launch the game. You can start the game by running the Python file from the terminal or command line: python3 maths_game_tkinter.py or python maths_game_tkinter.py, depending on your Python installation.
+1.	Launch the game. You can start the game by running the Python file from the terminal or command line: python3 maths_game.py or python maths_game.py, depending on your Python installation. 0r  (Past the MathsGame file path you copied earlier, No need for brackets) e.g: python3 /Users/yourname/Downloads/MathsGame-main OR python /Users/yourname/Downloads/MathsGame-main Depending on your python installation.
 2.	Choose a difficulty level. When the game window appears, it will show a level selection drop-down menu and an initial math problem. You can choose from Easy, Medium, or Hard levels.
 3.	Solve the math problem. Enter your answer in the text field.
 4.	Submit your answer. Click the "Submit" button. 
@@ -93,13 +93,13 @@ You can install these Python packages using pip:
 
 # Playing the Game:
 
-1.	Download the Blue MathsGame folder from Github by clicking the green CODE button and press Download Zip. Once you download the MathsGame folder it should be in your Downloads.
+1.	Download the Blue MathsGame folder from Github by clicking the green CODE button and press Download Zip. Once you download the MathsGame folder it should be in your Downloads. Copy the MathsGame file path you will need this before you play the game!
 
 2.	Go to Visual studio code on the Left-hand side press explorer, Open Folder, click Downloads and find the Blue MathsGame folder you Downloaded from Github. Once your find it press open.
 
 3.	Once you Open the folder launch the game. You can start the game by running the Python file within Visual studio code from terminal (Should be at the of Top Next to ‘RUN’ option and press New terminal). 
 
-4.	On the left hand side Next to “MATHSGAME” Click New file icon, Name the file “main.py”. Open your Terminal by clicking new terminal at the top. Run and type the following onto terminal: python3  -m venv MathsGame. A pop up message will appear Click “Yes”. You have now created your virtual Environment.
+4.	On the left hand side Next to “MATHSGAME” Click New file icon, Name the file “main.py”. Open your Terminal by clicking new terminal at the top. Run and type the following onto terminal: python3 -m venv MathsGame. A pop up message will appear Click “Yes”. You have now created your virtual Environment.
 
 
 
@@ -114,7 +114,7 @@ pip install pygame
 
 pip install pyobjc
 
-6.	Type the following: python3 maths_game.py or python maths_game.py, depending on your Python installation.
+6.	Type the following: python3  -m venv (Past the MathsGame file path you copied earlier, No need for brackets) e.g: python3 -m venv /Users/yourname/Downloads/MathsGame-main or python  (Past the MathsGame file path you copied earlier) e.g: python -m venv /Users/yourname/Downloads/MathsGame-main, depending on your Python installation.
 
 7.	Choose a difficulty level. When the game window appears, it will show a level selection drop-down menu and an initial math problem. You can choose from Easy, Medium, or Hard levels.
 
