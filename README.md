@@ -33,10 +33,11 @@ pip install pyobjc
 1.	Launch the game. You can start the game by running the Python file from the terminal or command line: python3 maths_game_tkinter.py or python maths_game_tkinter.py, depending on your Python installation.
 2.	Choose a difficulty level. When the game window appears, it will show a level selection drop-down menu and an initial math problem. You can choose from Easy, Medium, or Hard levels.
 3.	Solve the math problem. Enter your answer in the text field.
-4.	Submit your answer. Click the "Submit" button.
-5.	The game will then give feedback by giving a point score for correct answer. If the answer is incorrect, you do not get a point.Your final score will be shown at the end of the game and how many answers you scored correctly.
-6.	Keep playing. Continue to answer problems. The game will end after you've attempted 10 questions, or 10 minutes have passed, whichever comes first.
-7.	View your score. At the end of the game, your final score will be displayed. To play again, close the window and relaunch the game.
+4.	Submit your answer. Click the "Submit" button. 
+5.	The game will then give feedback by giving a point score for correct answer. If the answer is incorrect, you do not get a point. A "correct" or "incorrect" message will appear under the submit button, if you entered an incorrect answer the correct answer will be displayed.
+6.	Your final score will be shown at the end of the game.
+7.	Keep playing. Continue to answer problems. The game will end after you've attempted 10 questions, or 10 minutes have passed, whichever comes first.
+8.	View your score. At the end of the game, your final score will be displayed. To play again, close the window and relaunch the game.
 
 Enjoy this interactive and educational game while practicing your math skills!
 
@@ -120,14 +121,13 @@ pip install pyobjc
 8.	Solve the math problem. Enter your answer in the text field.
 
 9.	Submit your answer. Click the "Submit" button.
+	
+10.	The game will then give feedback by giving a point score for correct answer. If the answer is incorrect, you do not get a point. A "correct" or "incorrect" message will appear under the submit button, if you entered an incorrect answer the correct answer will be displayed.
 
-10.	The game will then give feedback by giving a point score for correct answer. If the answer is incorrect, you do not get a point.Your final score will be shown at the end of the game and how many answers you scored correctly.
+11.	Your final score will be shown at the end of the game.
 
-11.	Keep playing. Continue to answer problems. The game will end after you've attempted 10 questions, or 10 minutes have passed, whichever comes first.
+12. Keep playing. Continue to answer problems. The game will end after you've attempted 10 questions, or 10 minutes have passed, whichever comes first.
 
-12.	View your score. At the end of the game, your final score will be displayed. To play again, close the window and relaunch the game.
+13. View your score. At the end of the game, your final score will be displayed. To play again, close the window and relaunch the game.
 
 Enjoy this interactive and educational game while practicing your math skills!
-
-
-
