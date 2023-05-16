@@ -31,7 +31,7 @@ pip install pyobjc
 
 # Playing the Maths Game
 1.	Launch the game. You can start the game by running the Python file from the terminal or command line: python3 maths_game.py or python maths_game.py, depending on your Python installation. 0r  In Terminal type python3 or python depending on your installation, at the top of your screen where your “maths_game.py file is hold down your mouse and drag/drop that file path into the terminal. For example:
-python3 '/Users/yourname/Desktop/MathsTEST/done.py'.
+python3 '/Users/yourname/Desktop/MathsGame-main/maths_game.py'.
 2. Choose a difficulty level. When the game window appears, it will show a level selection drop-down menu and an initial math problem. You can choose from Easy, Medium, or Hard levels.
 3.	Solve the math problem. Enter your answer in the text field.
 4.	Submit your answer. Click the "Submit" button. 
@@ -115,7 +115,7 @@ pip install pyobjc
 
 6.	Type the following In Terminal: python3 or python depending on your installation, at the top of your screen where your “maths_game.py file is hold down your mouse and drag/drop that file path into the terminal. For example:
 
-python3 '/Users/yourname/Desktop/MathsTEST/done.py'
+python3 '/Users/yourname/Desktop/MathsGame-main/maths_game.py'
 
 7.	Choose a difficulty level. When the game window appears, it will show a level selection drop-down menu and an initial math problem. You can choose from Easy, Medium, or Hard levels.
 
