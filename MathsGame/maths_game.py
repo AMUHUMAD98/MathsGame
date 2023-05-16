@@ -65,7 +65,6 @@ class MathsGame:
             if self.op == '/':
                 self.b = random.choice([i for i in range(1, self.get_max_number()+1) if self.a % i == 0])  # Ensure division is exact
             self.question_label['text'] = f"Question {self.current_question}: {self.a} {self.op} {self.b}"
-            self.result_label['text'] = ""
         else:
             self.question_label['text'] = "Game Over"
             self.submit_button['state'] = 'disabled'
@@ -74,6 +73,7 @@ class MathsGame:
         correct = eval(f"{self.a} {self.op} {self.b}")
         try:
             user_answer = float(self.answer_entry.get())
+            self.result_label['text'] = ""  # Moved this line from next_question() to here
             if user_answer == correct:
                 self.score += 1
                 self.score_label['text'] = f"Score: {self.score}"
