@@ -30,7 +30,7 @@ pip install pyobjc
 •	For Python on Windows and MacOS, Tkinter comes pre-installed with the standard Python distribution.
 
 # Playing the Maths Game
-1.	Launch the game. You can start the game by running the Python file from the terminal or command line: python3 maths_game.py or python maths_game.py, depending on your Python installation. 0r  (Past the MathsGame file path you copied earlier, No need for brackets) e.g: python3 /Users/yourname/Downloads/MathsGame-main OR python /Users/yourname/Downloads/MathsGame-main Depending on your python installation.
+1.	Launch the game. You can start the game by running the Python file from the terminal or command line: python3 maths_game.py or python maths_game.py, depending on your Python installation. 0r  (Past the MathsGame file path, No need for brackets) e.g: python3 /Users/yourname/Downloads/MathsGame-main OR python /Users/yourname/Downloads/MathsGame-main Depending on your python installation.
 2.	Choose a difficulty level. When the game window appears, it will show a level selection drop-down menu and an initial math problem. You can choose from Easy, Medium, or Hard levels.
 3.	Solve the math problem. Enter your answer in the text field.
 4.	Submit your answer. Click the "Submit" button. 
