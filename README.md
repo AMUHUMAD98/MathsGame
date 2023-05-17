@@ -1,4 +1,6 @@
-# Title: Children's Math Game using python 
+# Title: Children's Math Game using python
+
+# On Guithub search: AMUHUMAD98/MathsGame to find the game.
 
 # Description:
 The Python Math Game is an enjoyable and engaging method for children aged 5-8 to practice basic math operations such as addition, subtraction, multiplication, and division. The game features an easy-to-use interface and is built using the widely-used Python programming language, making it simple for players to set up and begin playing.
