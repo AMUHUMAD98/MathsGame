@@ -3,7 +3,7 @@
 # On Guithub search: AMUHUMAD98/MathsGame to find the game.
 
 # Description:
-The Python Math Game is an enjoyable and engaging method for children aged 5-8 to practice basic math operations such as addition, subtraction, multiplication, and division. The game features an easy-to-use interface and is built using the widely-used Python programming language, making it simple for players to set up and begin playing.
+The Python Tkinter Math Game is an enjoyable and engaging method for children aged 5-8 to practice basic math operations such as addition, subtraction, multiplication, and division. The game features an easy-to-use interface and is built using the widely-used Python programming language, making it simple for players to set up and begin playing.
 
 # Installing Python
 If you don't have Python installed on your machine, you can follow the instructions below:
